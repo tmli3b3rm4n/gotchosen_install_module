@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains gotchosen.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function gotchosen_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the gotchosen module.
+    case 'help.page.gotchosen':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('This module allows you to install the GotChosen web curtain onto your website.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
