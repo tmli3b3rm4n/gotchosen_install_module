@@ -2,7 +2,7 @@
   "name": "drupal/gotchosen",
   "type": "drupal-module",
   "description": "This module allows you to install the GotChosen web curtain onto your website.",
-  "keywords": ["Drupal"],
+  "keywords": ["Drupal", "Gotchosen", "GotChosen install module"],
   "license": "GPL-2.0+",
   "homepage": "https://www.drupal.org/project/gotchosen",
   "minimum-stability": "dev",

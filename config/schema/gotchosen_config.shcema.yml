@@ -1,0 +1,24 @@
+gotchosen.gotchosen_config.module.*:
+  type: config_entity
+  label: "Gotchosen Configuration Module"
+  mapping:
+    id:
+      type: string
+      label: "ID"
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string
+    publisher_key:
+      type: string
+      label: "Your publisher id for this site."
+    publisher_secret:
+      type: string
+      label: "Your gotchosen secret key."
+    publisher_affiliate_sites:
+      type: config_entity
+      label: "Public keys for your affiliate sites"
+    site_name:
+      type: string
+      label: "Name of your site.  www.gotchosen.com would be gotchosen"
